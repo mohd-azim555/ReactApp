@@ -1,19 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App'
 
 
 ReactDOM.render(
   <div>
-    <h1>This is My react App</h1>
-    <h2>We built a beautiful react app</h2>
-    <ul>
-      <li><h6>Using MERN</h6></li>
-      <li>HTML,CSS</li>
-      <li>JavaScipt</li>
-      <li>React</li>
-      <li>node.js</li>
-      <li>express.js</li>
-    </ul>
-  </div>
+    <App/>
+   </div>
   ,
   document.getElementById('root'));
